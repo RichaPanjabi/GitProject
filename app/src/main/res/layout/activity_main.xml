@@ -8,6 +8,7 @@
     android:background="@color/purple_200">
 
     <TextView
+        android:id="@+id/txtView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -17,5 +18,14 @@
         android:textSize="20dp"
         android:textStyle="bold"
        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:text="CLICK ME"
+        android:backgroundTint="@color/black"/>
 
 </RelativeLayout>
